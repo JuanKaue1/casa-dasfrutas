@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>Casa das Frutas</title>
+</head>
+
+<body>
+    <header>
+        <img src="/frutascombootstrap/frutas/Logo.png" alt="Logo vingadores">
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-video"></i><button type="button"
+                            class="btn btn-warning">Vídeos</button></a></li>
+                <li><a href="#"><i class="fa-solid fa-video"></i><button type="button"
+                            class="btn btn-warning">Receitas</button></a></li>
+                <li><a href="#"><i class="fa-solid fa-video"></i><button type="button"
+                            class="btn btn-warning">Sucos</button></a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Frutas
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Banana</a></li>
+                            <li><a class="dropdown-item" href="#">Maçã</a></li>
+                            <li><a class="dropdown-item" href="#">abacaxi</a></li>
+                            <li><a class="dropdown-item" href="#">melancia</a></li>
+                            <li><a class="dropdown-item" href="#">Laranja</a></li>
+                            <li><a class="dropdown-item" href="#">Persea americana</a></li>
+                            <li><a class="dropdown-item" href="#">Morango</a></li>
+                            <li><a class="dropdown-item" href="#">Limão siciliano</a></li>
+                            <li><a class="dropdown-item" href="#">Uva</a></li>
+                        </ul>
+                    </div>
+                </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img height="800px" src="/frutascombootstrap/frutas/Banner 001.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-success">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img height="800px" src="/frutascombootstrap/frutas/banner 002.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-success">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img height="800px" src="/frutascombootstrap/frutas/Banner 003.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-success">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img height="800px" src="/frutascombootstrap/frutas/Banner 004.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-success">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img height="800px" src="/frutascombootstrap/frutas/banner 005.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white bg-success">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- FRUTAS-OPEN -->
+    <!-- FRUTAS-OPEN -->
+    <!-- FRUTAS-OPEN -->
+    <!-- FRUTAS-OPEN -->
+    <!-- FRUTAS-OPEN -->
+    <section class="gallery">
+        <h2>Frutas</h2>
+
+        <div class="gallery-row">
+            <div class="card" style="width: 18rem;">
+                <img height="300px" src="/frutascombootstrap/frutas/banana01.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Banana</h5>
+                    <p class="card-text">O que alguns não sabem é que a banana não é um fruto, mas sim, um pseudofruto,
+                        onde o tubo floral desenvolve-se em conjunto com o ovário, durante a frutificação;
+                        comercialmente é chamada de fruta. As bananas possuem um formato alongado, uma coloração amarela
+                        ou vermelha e um sabor doce.</p>
+                    <a href="#" class="btn btn-warning">Ler Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img height="300px" src="/frutascombootstrap/frutas/Abacaxi.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Abacaxi</h5>
+                    <p class="card-text">Qual o melhor horário para comer abacaxi?
+                        Comer uma fatia de abacaxi após as refeições, no lanche da manhã ou da tarde vai te ajudar a
+                        manter a dieta e perder os quilinhos extras. Isso porque o abacaxi contém muita água (cerca de
+                        87% do seu peso é de água) e fibras, além de baixa densidade calórica, apenas 50 calorias por
+                        fatia.</p>
+                    <a href="#" class="btn btn-warning">Ler Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img height="300px" src="/frutascombootstrap/frutas/Banner 004.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Melancia</h5>
+                    <p class="card-text">Porque não pode comer melancia à noite?
+                        A nutricionista explica ainda que a melancia pode ser ingerida mais de uma vez ao dia, é bom
+                        evitar apenas comer a fruta à noite após as refeições porque pode ser indigesta.</p>
+                    <a href="#" class="btn btn-warning">Ler Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="text-danger border-0 opacity-50">
+
+        <div class="gallery-row">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/frutascombootstrap/frutas/morango.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Morango</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-warning">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- FRUTAS-CLOSE -->
+    <!-- FRUTAS-CLOSE -->
+    <!-- FRUTAS-CLOSE -->
+    <!-- FRUTAS-CLOSE -->
+    <!-- FRUTAS-CLOSE -->
+
+    <!-- Curiosidades-OPEN-->
+    <!-- Curiosidades-OPEN-->
+    <!-- Curiosidades-OPEN-->
+    <!-- Curiosidades-OPEN-->
+    <!-- Curiosidades-OPEN-->
+    <section class="history">
+        <div class="container">
+
+            <section class="gallerya">
+                <h2>Curiosidades</h2>
+                <div class="gallery-rowa">
+                    <iframe width="800" height="500" src="https://www.youtube.com/embed/NeQDqSvxlBs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <hr class="text-danger border-0 opacity-50">
+
+                <div class="gallery-rowa">
+
+                    <embed width="564" height="250"
+                        src="/frutascombootstrap/Na primeira pagina inserir essas frases e dicas.pdf" type="">
+                    <embed width="564" height="250"
+                        src="/frutascombootstrap/LIVRO_FLV_FRUTAS_LEGUMES_E_VERDURAS-editado.pdf" type="">
+                </div>
+                <hr class="text-danger border-0 opacity-50">
+                <hr class="text-danger border-0 opacity-50">
+                <hr class="text-danger border-0 opacity-50">
+            </section>
+        </div>
+
+
+</body>
+<footer>
+    
+</footer>
+
+</html>
